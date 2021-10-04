@@ -77,7 +77,7 @@ fn main() {
     const _X: i32 = 9;
     const _PI: f64 = 3.1415926;
     //静态变量
-    static _SX: i32 = 18;
+    static _SX: i32 = 18; 
     static mut _SY: i32 = 18;
     static _V: Vec<u8> = Vec::new();
     // 无法通过编译， 需要使用lazy_static
