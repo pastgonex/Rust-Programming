@@ -1,6 +1,6 @@
 # 第一个rust程序
 
-## 一. 第一个rust程序 html to markdown 
+## 一. 第一个rust程序 html to markdown
 
 > 首先通过cargo new scrape_url 生成一个新项目
 >
@@ -12,8 +12,6 @@
 reqwest = { version = "0.11", features = ["blocking"] }
 html2md = "0.2"
 ```
-
-
 
 - Cargo.toml是Rust项目的配置管理文件， 符合[toml](https://toml.io/cn/v1.0.0)语法。
 - 两个依赖
@@ -47,7 +45,7 @@ fn main() {
   - 函数体使用花括号 {} 包裹
   - 表达式之间使用 ; 间隔
   - 访问结构体成员或者变量使用 点 . 运算符
-  - 访问命名空间(namespace) 或者 对象的静态函数使用双冒号 :: 运算符。 
+  - 访问命名空间(namespace) 或者 对象的静态函数使用双冒号 :: 运算符。
   - 如果要简化对命名空间内部的函数或者数据类型的引用， 可以使用use关键字， 比如 use std::fs。
   - 可执行体的入口函数是main()
 
@@ -115,8 +113,6 @@ fn main() {
     println!("is_pi: {:?}, is_unit1: {:?}, is_unit2: {:?}", is_pi, is_unit1, is_unit2);
   }
   ```
-
-
 
 ## 三. 数据结构
 
@@ -266,8 +262,6 @@ assert_eq!(arr[0..=1], [1, 2]);
 
 ![img](https://static001.geekbang.org/resource/image/e3/6c/e3a96ae58a98f46f98b56yya6378b26c.jpg?wh=1920x2144)
 
-
-
 ### 2. 模式匹配
 
 ​    Rust 的模式匹配吸取了函数式编程语言的优点，强大优雅且效率很高。它可以用于 struct / enum 中匹配部分或者全部内容，比如上文中我们设计的数据结构 Event，可以这样匹配
@@ -293,8 +287,6 @@ fn process_message(event: &Event) {
     }
 }
 ```
-
-
 
 ## 五. 错误处理
 
@@ -340,8 +332,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 ```
-
-
 
 ## 六. Rust 项目的组织
 
