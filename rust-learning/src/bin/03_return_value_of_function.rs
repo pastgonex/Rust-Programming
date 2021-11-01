@@ -1,3 +1,10 @@
+/*
+ * @Author: Binqi Ni
+ * @Date: 2021-09-07 04:17:36
+ * @LastEditTime: 2021-10-08 10:39:21
+ * @LastEditors: Binqi Ni
+ * @FilePath: /Rust-Programming/rust-learning/src/bin/03_return_value_of_function.rs
+ */
 fn pi() -> f64 {
     3.1415926
 }

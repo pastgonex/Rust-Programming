@@ -48,6 +48,8 @@ struct User {
     gender: Gender,
 }
 
+#[derive(Debug, Clone, Copy)]
+
 #[derive(Debug)]
 struct Topic {
     id: TopicId,
@@ -69,7 +71,7 @@ fn main() {
     // 变量
     let _a: i32;
     let mut _x: i32;
-    let _name = "nibinqi";
+    let _name = "QAQ";
     let _pi = 3.1415926;
     let mut _v: Vec<u8> = Vec::new();
 
